@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute to MS Dhoni</title>
+    <style>
+    body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        
+        }
+        
+.content {
+    width: 90%;
+    background-color: #c8b0e2;
+    display: flex;
+    padding: 30px;
+    border-radius: 30px;
+    margin: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-1 {
+    width: 90%;
+    background-color: #c8b0e2;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    border-radius: 30px;
+    margin: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.left {
+    height: 100%;
+    width: 60%;
+    flex-wrap: wrap;
+    /* padding: 6vw 3vw; */
+}
+
+.left h1 {
+    font-size: 4vw;
+    line-height: 4.4vw;
+    
+}
+
+.left h1 span {
+    color: #2C8CF0;
+}
+
+.left p {
+    font-size: 1.2vw;
+    font-weight: 600;
+    color:rgb(37, 30, 30);
+    width: 80%;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.right {
+    height: 100%;
+    width: 40%;
+    padding-left: 15%;
+    flex-wrap: wrap;
+}
+
+.right img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;;
+}
+
+     
+.movies-page {
+    padding: 10px 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* background-color: rgb(185, 114, 114); */
+  }
+  
+  .movies-page .headings{
+    padding-bottom: 30px;
+    text-align: center;
+  }
+
+  .movies-page .headings .sub-title{
+    color: #161509; 
+  }
+
+  .movies-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .movies-list li img {
+    border-radius: 10px;
+    background-size: cover;
+    transition: all 0.5s;
+    height: 324px;
+    width: 220px;
+    cursor: pointer;
+  }
+  
+  .movies-list li img:hover {
+    transition: all 0.5s;
+    transform: scale(1.1);
+    border: 3px solid #222222;
+  }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            max-width: 95vw;
+                        
+            background-color: #6724a5;
+
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .container-1 {
+            font-size: 1.2vw;
+            font-weight: 600;
+            max-width: 95vw;
+        color: black;
+            background-color:#c8b0e2;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .c{
+            font-size: 1.2vw;
+            font-weight: 100;
+            border-radius: 10px;
+            padding: 20px;
+            background-color: #a577d1;
+            margin: 30 10px;
+        }
+        
+      .bg{
+          background-color: #6724a5;
+          padding: 20px 0;
+          border-radius: 5px;
+          
+      }
+        
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        header h1 {
+            font-size: 32px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        #bio {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        #bio img {
+            width: 80%;
+
+            border-radius: 30%;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #bio p {
+            text-align: justify;
+            color:black;
+            line-height: 1.6;
+        }
+        
+        section {
+            margin-bottom: 30px;
+        }
+        
+        section h2 {
+            margin-bottom: 15px;
+            color:black;
+        }
+        
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        li {
+            margin-bottom: 10px;
+            color: black;
+        }
+        
+        p {
+            text-align: justify;
+            color:black;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        footer {
+            text-align: center;
+            color: black;
+            font-style: italic;
+            margin-top: 20px;
+            background-color: #a577d1;
+            padding: 20px;
+        }
+        img{
+            object-fit: contain;
+            width: 90%;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <header>
+            <h1 style="background-color: black; color:white; padding: 25px;">Tribute to <span style="color:#ffcc00 ;">MS Dhoni</span></h1>
+        </header>
+        <div id="bio">
+            <div class="content">
+                <div class="left">
+                    <h1>Mahendra Singh <span>Dhoni</span></h1>
+                    <p>
+                        Mahendra Singh Dhoni, often called 'Captain Cool,' is a cricket icon and former Indian cricket
+                        team
+                        captain. Renowned for his calm demeanor and strategic prowess, Dhoni led India to numerous
+                        victories, including the 2007 ICC T20 World Cup and the 2011 ICC Cricket World Cup.
+                    </p>
+                </div>
+    
+                <div class="right">
+                    
+                    <img src="dhoni img5.jpg" alt="">
+
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+
+    <div class="container">
+        
+        <div id="bio">
+            <div class="content">
+                <div class="left">
+                    <p>
+                        Mahendra Singh Dhoni, fondly known as MS Dhoni or Mahi, was born on July 7, 1981, in Ranchi, Jharkhand, India. His father worked in junior management positions in MECON, while his mother was a housewife. Raised in a middle-class family, Dhoni had an innate passion for cricket from a young age.
+                        Dhoni's journey to cricketing stardom began when he was selected to play for the Bihar U-19 team. His impressive performance led him to be noticed by talent scouts, and he soon found himself representing the Indian cricket team in various domestic and international matches.
+                        Dhoni's leadership qualities came to the forefront when he was appointed captain of the Indian cricket team in 2007. Under his captaincy, India achieved numerous milestones, including winning the inaugural ICC T20 World Cup in 2007, ICC Cricket World Cup in 2011, and ICC Champions Trophy in 2013. His calm demeanor under pressure earned him the nickname "Captain Cool."
+                        In August 2020, MS Dhoni announced his retirement from international cricket, marking the end of an illustrious career that spanned over 16 years. Although he bid farewell to international cricket, his legacy continues to inspire millions of cricket enthusiasts worldwide.
+                    </p>
+                </div>
+    
+                <div class="right">
+                    <img src="dhoni2.png" alt="" height="100% ">
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+
+                
+                  
+
+
+    <div class="container">
+        <h1 style="display: flex;justify-content: center; align-items: center; color: white;">Records</h1>
+            <div class="content-1">
+    
+                
+                    <p>
+                        <ul>
+                            <li class="c"><strong>Helicopter Shot:</strong> One of the most iconic shots associated with MS Dhoni is the 'Helicopter Shot.' Dhoni's unique batting style allowed him to execute this shot with precision, sending the ball soaring over the boundary ropes.</li>
+                            <li class="c"><strong>Captaincy Records:</strong> Dhoni holds the record for the most international matches as captain for India, leading the team in 332 matches across formats. His tactical acumen and ability to remain composed in high-pressure situations set him apart as one of the most successful captains in cricket history.</li>
+                            <li class="c"><strong>Finishing Skills:</strong> Dhoni's ability to finish matches with his batting prowess became legendary. His calmness and strategic thinking during run-chases made him a formidable opponent for any bowling attack. His knack for finishing games under pressure earned him the reputation of being one of the best finishers in limited-overs cricket.</li>
+                            <li class="c"><strong>Wicketkeeping Prowess:</strong> Apart from his batting and leadership skills, Dhoni was also an exceptional wicketkeeper. His lightning-fast reflexes behind the stumps and astute understanding of the game's dynamics made him one of the finest wicketkeepers in the world.</li>
+                            <li class="c"><strong>Off-field Contributions:</strong> Beyond his on-field achievements, Dhoni's humility and philanthropic endeavors have left an indelible mark. He has been actively involved in various charitable activities and initiatives aimed at promoting cricket at the grassroots level, nurturing young talent, and contributing to society.</li>
+                        </ul>    
+                    </p>
+                    
+                
+            </div>
+    </div>
+            
+       
+    <div class="container-1">
+        <section>
+            <div class="movies-page" id="movies-page">
+                <div class="headings padding">
+                    <h1 class="title">Journey Of MSD</h1>
+                    <h2 class="sub-title">Memories</h2>
+                </div>
+                <ul class="movies-list ">
+                    <li ><img class="bg" src="dhoni img1.jpg" alt="" /></li>
+                    <li ><img class="bg" src="dhoni img2.jpg" alt="" /></li>
+                    <li ><img class="bg" src="dhoni img3.jpg" alt="" /></li>
+                    <li ><img class="bg" src="dhoni img4.jpg" alt="" /></li>
+                    <li ><img class="bg" src="dhoni img5.jpg" alt="" /></li>
+                    <li ><img class="bg" src="dhoni.jpg" alt="" /></li>
+                    <li ><img class="bg" src="dhoni img7.jpg" alt="" /></li>
+                    <li ><img class="bg" src="dhoni img8.jpg" alt="" /></li>
+                    <li ><img class="bg" src="dhoni img9.jpg" alt="" /></li>
+                    <li ><img class="bg" src="dhoni img10.jpg" alt="" /></li>
+                </ul>
+            </div>
+            <footer>
+                Mahendra Singh Dhoni's journey from a small-town boy to one of the most celebrated cricketers globally is a testament to his perseverance, dedication, and passion for the game. As fans, we will forever cherish the memories he has given us and continue to celebrate his legacy on and off the cricket field. MS Dhoni will always remain an icon, inspiring generations of cricket enthusiasts with his extraordinary talent and exemplary leadership.
+                <br><br>
+                "Mahi Maar Raha Hai!"
+            </footer>
+        </section>
+    </div>
+</body>
+</html>
